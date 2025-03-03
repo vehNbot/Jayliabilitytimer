@@ -19,7 +19,7 @@ function timer () {
     Minutes.innerHTML = minutes;
     Seconds.innerHTML = seconds;
 
-    if(distance <0){
+    if(distance < 0){
         Days.innerHTML = "00";
         Hours.innerHTML = "00";
         Minutes.innerHTML = "00";
