@@ -2,12 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.651)), url('Assets/jayhead.png');
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgb(0, 0, 0)), url('Assets/jayhead.png');
     background-size:auto ;
     background-position: center;
     display: flex;
@@ -35,4 +35,10 @@ h1{
 .time h2{
     font-size: 5rem;
     font-weight: 100;
+}
+
+.desc {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
 }
